@@ -64,7 +64,7 @@ th,td{
         clip-path: circle(45%);
     }
 }
-@media (min-width:48rem){
+@media (min-width:64rem){
     .portrait{
         float:left;
     }
