@@ -56,4 +56,11 @@ th,td{
     border:1px solid var(--border);
     text-align:left;
 }
-/* TODO: add rounded baseline, @supports clip-path enhancement, and an appropriate-width shape-outside float. */
+.rounded-treatment{
+    border-radius:1rem;
+}
+@supports (clip-path: circle(50%)){
+    .clipped-treatment img{
+        clip-path: circle(45%);
+    }
+}
