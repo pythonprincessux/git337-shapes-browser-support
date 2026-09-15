@@ -64,3 +64,12 @@ th,td{
         clip-path: circle(45%);
     }
 }
+@supports (shape-outside: circle(50%)){
+    @media (min-width:48rem){
+        .portrait{
+            float:left;
+            shape-outside:circle(50%);
+            shape-margin:1rem;
+        }
+    }
+}
