@@ -67,9 +67,10 @@ th,td{
 @media (min-width:64rem){
     .portrait{
         float:left;
+        margin:0 1rem 1rem 0;
     }
 
-    @supports (shape-outside: circle(50%)){
+    @supports (shape-outside:circle(50%)){
         .portrait{
             shape-outside:circle(50%);
             shape-margin:1rem;
